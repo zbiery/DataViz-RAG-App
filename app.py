@@ -3,8 +3,8 @@ from main import RAGApplication  # Replace with the actual module name where you
 
 # Streamlit app setup
 def main():
-    st.title("RAG Chat Interface")
-    st.sidebar.header("Settings")
+    st.title("Data Visualization Expert :bar_chart:")
+    st.sidebar.header("Settings :gear:")
     
     # Input for Groq API key
     groq_api_key = st.sidebar.text_input("Enter your Groq API Key", type="password")
@@ -24,12 +24,16 @@ def main():
     
     # Chat interface
     st.subheader("Chat with the RAG Model")
-    query = st.text_input("Enter your query:")
+    st.warning("""This application is meant only to answer questions relevant to data visualization.
+               Queries irrelevant to data visualization should not be utilized. Please note that generated
+               AI content may be incorrect.""")
+    query = st.text_input("Enter your query:",)
     if st.button("Submit"):
         if query:
             try:
                 response = rag_app.query(query)
-                st.text_area("Response", response, height=200)
+                st.markdown('**Response:**')
+                st.write(response, height=200, disabled=True)
             except Exception as e:
                 st.error(f"An error occurred: {e}")
         else:

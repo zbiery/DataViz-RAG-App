@@ -214,7 +214,7 @@ def main():
             return  # Exit if index creation fails
 
     # Example query
-    query = "I like cats, do you?"
+    query = "When should I use a pie chart?"
     try:
         response = rag_app.query(query)
         print(response)
