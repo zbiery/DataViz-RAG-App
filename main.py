@@ -24,7 +24,7 @@ class RAGApplication:
         Here are some examples:
 
         Question: What color scale should I use for median household income data?
-        Asnwer: For visualizing median household income data, the recommended approach is to use a sequential color scale. 
+        Answer: For visualizing median household income data, the recommended approach is to use a sequential color scale. 
         This type of scale progresses from a light color to a dark color, indicating increasing values. For example, 
         lighter shades can represent lower income levels, and darker shades represent higher income levels.
         Sequential scales are ideal for such data because household income is a continuous, quantitative variable with 
