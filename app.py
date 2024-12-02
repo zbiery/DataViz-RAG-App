@@ -1,5 +1,5 @@
 import streamlit as st
-from main import RAGApplication  # Replace with the actual module name where your RAG application is implemented
+from main import RAGApplication  
 
 # Streamlit app setup
 def main():
