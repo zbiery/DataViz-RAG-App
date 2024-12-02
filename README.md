@@ -9,4 +9,5 @@ To reproduce this project, follow these steps:
 2. Setup a virtual environment
 3. Install dependencies using the ```pip install -r requirements.txt```
 4. Create a file named config.py that contains your Groq API key ```GROQ_API_KEY = '<your api key here>'```
+   or set an environment variable in python ```os.environ['GROQ_API_KEY'] = '<your api key here>'```
 
