@@ -4,7 +4,7 @@ This repository includes code utilized to create a simple retrieval augmented ge
 
 ![rag_app_workflow](https://github.com/user-attachments/assets/976758f1-6413-44d1-b30f-516d480aae43)
 
-To reproduce the results, follow these steps:
+To reproduce this project, follow these steps:
 1. Clone the repository
 2. Setup a virtual environment
 3. Install dependencies using the ```pip install -r requirements.txt```
